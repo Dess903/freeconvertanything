@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP4-MP3 Converter</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MP4 & MP3 Converter</h1>
+        <form action="/" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" required>
+            <div class="buttons">
+                <button type="submit" name="to_mp3" class="btn">Convert to MP3</button>
+                <button type="submit" name="to_mp4" class="btn">Convert to MP4</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
